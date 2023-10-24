@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primera Web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header id="header-section">
+        <h1 class="title_font">PokeCenter</h1>
+        <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="index-home.html">Home</a></li>
+                <li><a href="index-Contact.html">Contact</a></li>
+                <li><a href="https://www.youtube.com/watch?v=wU2siJ2c5TA">A Cool Dance </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="main-content">
+            <div class="intro">
+                <div class="intro-text">
+                <h3 class="light_font">Welcome to the Poke Center</h3>
+                <div class="light_font">Here you'll find the names of each starter Pokemon on each region</div>
+                </div>
+                <img class="slowbro" src="Slowbro.png"/>
+            </div>
+            <img class="poke" src="Poke.jpeg">
+        </div>
+
+        <div class="boxes">
+            <div class="kanto regions">
+                <img src="Pika.png" alt="">
+                <h3 class="title_font">Kanto Region</h3>
+                 <ul>
+                    <li>Charmander</li>
+                    <li>Squirtle</li>
+                    <li>Bulbasaur</li>
+                 </ul>
+             </div>
+
+            <div class="johto regions">
+                <img src="Togepi.png" alt="">
+                 <h3 class="title_font"> Johto Region</h3>
+                 <ul>
+                    <li>Cyndaquil</li>
+                    <li>Totodile</li>
+                    <li>Chikorita</li>
+                 </ul>
+            </div>
+            <div class="hoenn regions">
+                <img src="Mudkip.png" alt="">
+                <h3 class="title_font">Hoenn Region</h3>
+                 <ul>
+                    <li>Torchic</li>
+                    <li>Mudkip</li>
+                    <li>Treecko</li>
+                 </ul>
+             </div>
+        </div>
+
+        <nav class="form">
+            <h1>Contact</h1>
+            <p><em>We hope to hear from you!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text"/>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input 
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="abc@gmail.com"
+                    required
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="submit">Submit</button>
+                </div>
+                <p class="alert" id="alert"></p>
+            </form>
+        </nav>
+    </main>
+
+<footer>
+    <nav id="footer-section">
+        <h3 class="title_font">Follow us!</h3>
+        <div class="redes">
+        <ul>
+            <li><a href="https://wa.me/18722941733">Whatsapp Contact</a></li>
+            <li><a href="https://instagram.com/alehleal?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr">Instagram</a></li>
+            <li><a href="https://twitter.com/AlehLeal">Twitter</a></li>
+        </ul>   
+        </div> 
+    </nav>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html> 
